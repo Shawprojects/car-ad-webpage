@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background: #333;
+  color: #fff;
+  overflow-x: hidden; }
+
+#home-section {
+  background: url("../img/home_bg.jpg") no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+  min-height: 42em; }
+  #home-section .home-inner {
+    padding-top: 200px; }
+  #home-section .car-price {
+    position: absolute;
+    top: 380px;
+    left: 0; }
+  #home-section .card-border {
+    border: 8px solid #fff;
+    padding: 10px;
+    width: 287px;
+    height: 442px;
+    border-radius: 5%;
+    position: absolute;
+    top: 20px;
+    left: 140px; }
+  #home-section .card-bg {
+    background-color: #d6c45e;
+    width: 260px;
+    height: 408px;
+    border-radius: 2%;
+    position: relative;
+    top: 0;
+    left: -5px; }
+
+#experience-section {
+  background-color: #f4f4f4;
+  color: #333; }
+
+#interior-section {
+  background-color: #fff; }
+  #interior-section .img-interior {
+    width: auto;
+    min-height: 400px; }
+
+#color-section {
+  background-color: #fff;
+  color: #333; }
+
+#edge-section {
+  background-color: #e2e2e2;
+  color: #333; }
+
+#topsel-section {
+  background-color: #fff;
+  color: #333;
+  padding: 10px; }
+  #topsel-section .terms-link p a {
+    color: #333;
+    text-decoration: none; }
+
+#footer-section {
+  background-color: #231f20;
+  color: #fff; }
+
+#email-section {
+  background-color: #fff;
+  color: #333; }
